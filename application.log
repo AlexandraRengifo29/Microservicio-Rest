@@ -1,32 +1,169 @@
-21:31:30.048 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 5428 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
-21:31:30.053 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
-21:31:31.720 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
-21:31:31.736 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
-21:31:31.738 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-21:31:31.739 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
-21:31:31.859 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-21:31:31.859 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1692 ms
-21:31:32.461 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
-21:31:32.495 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
-21:31:32.508 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 3.317 seconds (process running for 4.996)
-21:31:34.443 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 27508 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
-21:31:34.446 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
-21:31:35.558 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
-21:31:35.567 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
-21:31:35.570 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-21:31:35.570 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
-21:31:35.675 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-21:31:35.675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1158 ms
-21:31:35.955 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
-21:31:35.959 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-21:31:35.962 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
-21:31:35.962 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-21:31:35.967 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
-21:31:35.967 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
-21:31:35.973 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+11:46:41.394 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.5 with PID 15216 (D:\td\0.per\td_uq\parcial2\nttdata-prueba\target\classes started by Lenovo in D:\td\0.per\td_uq\parcial2\nttdata-prueba)
+11:46:41.397 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+11:46:42.037 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+11:46:42.043 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+11:46:42.044 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:46:42.045 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+11:46:42.120 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:46:42.120 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 684 ms
+11:46:42.366 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+11:46:42.384 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+11:46:42.390 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 1.372 seconds (process running for 2.008)
+11:46:55.155 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:46:55.155 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:46:55.156 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:46:55.179 [http-nio-8090-exec-1] INFO  c.n.p.controller.ClientController - Querying client with type C and document number 234453228
+11:46:55.180 [http-nio-8090-exec-1] ERROR c.n.p.controller.ClientController - The client does not exist234453228
+11:47:23.504 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.5 with PID 7960 (D:\td\0.per\td_uq\parcial2\nttdata-prueba\target\classes started by Lenovo in D:\td\0.per\td_uq\parcial2\nttdata-prueba)
+11:47:23.507 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+11:47:24.203 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+11:47:24.209 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+11:47:24.210 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:47:24.211 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+11:47:24.284 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:47:24.285 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 724 ms
+11:47:24.511 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+11:47:24.526 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+11:47:24.532 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 1.39 seconds (process running for 2.092)
+12:31:18.777 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.5 with PID 10732 (D:\td\0.per\td_uq\parcial2\nttdata-prueba\target\classes started by Lenovo in D:\td\0.per\td_uq\parcial2\nttdata-prueba)
+12:31:18.779 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+12:31:19.406 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+12:31:19.418 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+12:31:19.419 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:31:19.419 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+12:31:19.490 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:31:19.490 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+12:31:19.712 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+12:31:19.726 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+12:31:19.732 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 1.229 seconds (process running for 1.838)
+12:31:29.590 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:31:29.591 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:31:29.591 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12:31:29.614 [http-nio-8090-exec-2] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type null and document number 234453228
+12:31:29.615 [http-nio-8090-exec-2] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type null
+12:31:29.615 [http-nio-8090-exec-2] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid null
+12:33:04.139 [http-nio-8090-exec-4] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type null and document number 234453228
+12:33:04.139 [http-nio-8090-exec-4] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type null
+12:33:04.139 [http-nio-8090-exec-4] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid null
+12:34:38.225 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.5 with PID 17252 (D:\td\0.per\td_uq\parcial2\nttdata-prueba\target\classes started by Lenovo in D:\td\0.per\td_uq\parcial2\nttdata-prueba)
+12:34:38.228 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+12:34:38.904 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+12:34:38.916 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+12:34:38.917 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:34:38.917 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+12:34:38.979 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:34:38.980 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 710 ms
+12:34:39.204 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+12:34:39.219 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+12:34:39.225 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 1.337 seconds (process running for 1.953)
+12:34:45.976 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:34:45.977 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:34:45.977 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12:34:52.374 [http-nio-8090-exec-1] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type Null and document number Null
+12:34:52.376 [http-nio-8090-exec-1] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type Null
+12:34:52.376 [http-nio-8090-exec-1] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid Null
+12:36:21.081 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.5 with PID 12428 (D:\td\0.per\td_uq\parcial2\nttdata-prueba\target\classes started by Lenovo in D:\td\0.per\td_uq\parcial2\nttdata-prueba)
+12:36:21.083 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+12:36:21.737 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+12:36:21.746 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+12:36:21.747 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:36:21.747 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+12:36:21.815 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:36:21.816 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 690 ms
+12:36:22.066 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+12:36:22.083 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+12:36:22.090 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 1.304 seconds (process running for 1.957)
+12:36:24.409 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:36:24.409 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:36:24.410 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:36:24.447 [http-nio-8090-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'documentType' for method parameter type String is not present]
+12:36:31.586 [http-nio-8090-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'documentType' for method parameter type String is not present]
+12:36:42.157 [http-nio-8090-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'documentType' for method parameter type String is not present]
+12:36:51.824 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.5 with PID 7860 (D:\td\0.per\td_uq\parcial2\nttdata-prueba\target\classes started by Lenovo in D:\td\0.per\td_uq\parcial2\nttdata-prueba)
+12:36:51.827 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+12:36:52.430 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+12:36:52.437 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+12:36:52.438 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:36:52.438 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+12:36:52.503 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:36:52.504 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 641 ms
+12:36:52.774 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+12:36:52.789 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+12:36:52.796 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 1.255 seconds (process running for 1.844)
+12:36:55.062 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:36:55.063 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:36:55.063 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12:36:55.090 [http-nio-8090-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'documentType' for method parameter type String is not present]
+12:37:44.671 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.5 with PID 6704 (D:\td\0.per\td_uq\parcial2\nttdata-prueba\target\classes started by Lenovo in D:\td\0.per\td_uq\parcial2\nttdata-prueba)
+12:37:44.674 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+12:37:45.308 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+12:37:45.314 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+12:37:45.315 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:37:45.315 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+12:37:45.386 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:37:45.387 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 670 ms
+12:37:45.627 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+12:37:45.641 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+12:37:45.647 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 1.263 seconds (process running for 2.008)
+12:37:51.479 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:37:51.479 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:37:51.480 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:37:51.503 [http-nio-8090-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'documentType' for method parameter type String is not present]
+12:39:55.387 [http-nio-8090-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'documentType' for method parameter type String is not present]
+12:40:02.637 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.5 with PID 18164 (D:\td\0.per\td_uq\parcial2\nttdata-prueba\target\classes started by Lenovo in D:\td\0.per\td_uq\parcial2\nttdata-prueba)
+12:40:02.639 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+12:40:03.277 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+12:40:03.283 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+12:40:03.284 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:40:03.284 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+12:40:03.347 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:40:03.348 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 669 ms
+12:40:03.576 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+12:40:03.590 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+12:40:03.596 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 1.257 seconds (process running for 1.934)
+12:40:04.606 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:40:04.606 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:40:04.607 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12:40:07.748 [http-nio-8090-exec-1] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type C and document number 23123123
+12:40:07.749 [http-nio-8090-exec-1] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type C
+12:40:07.750 [http-nio-8090-exec-1] ERROR c.n.p.s.impl.ClientServiceImpl - The client does not exist 23123123
+12:40:25.444 [http-nio-8090-exec-3] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type C and document number 23445322
+12:40:25.444 [http-nio-8090-exec-3] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type C
+12:40:50.213 [http-nio-8090-exec-6] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type NULL and document number NULL
+12:40:50.214 [http-nio-8090-exec-6] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type NULL
+12:40:50.214 [http-nio-8090-exec-6] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid NULL
+12:40:56.959 [http-nio-8090-exec-8] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type C and document number NULL
+12:40:56.959 [http-nio-8090-exec-8] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type C
+12:40:56.959 [http-nio-8090-exec-8] ERROR c.n.p.s.impl.ClientServiceImpl - The client does not exist NULL
+16:14:26.726 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 11476 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
+16:14:26.730 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+16:14:28.397 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+16:14:28.410 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+16:14:28.414 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:14:28.415 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+16:14:28.687 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:14:28.709 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1747 ms
+16:14:29.653 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+16:14:29.699 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+16:14:29.721 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 3.645 seconds (process running for 7.072)
+16:14:44.862 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 808 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
+16:14:44.866 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+16:14:46.778 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+16:14:46.793 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+16:14:46.796 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:14:46.796 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+16:14:47.058 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:14:47.058 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2097 ms
+16:14:47.671 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+16:14:47.681 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+16:14:47.690 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+16:14:47.691 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:14:47.707 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+16:14:47.707 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+16:14:47.719 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-21:31:35.989 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+16:14:47.751 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -40,32 +177,46 @@ Action:
 
 Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
 
-21:32:02.292 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 29000 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
-21:32:02.295 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
-21:32:03.403 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
-21:32:03.413 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
-21:32:03.416 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-21:32:03.416 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
-21:32:03.528 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-21:32:03.528 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
-21:32:03.815 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
-21:32:03.833 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
-21:32:03.841 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 2.032 seconds (process running for 2.935)
-21:32:35.787 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 20528 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
-21:32:35.790 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
-21:32:36.896 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
-21:32:36.908 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
-21:32:36.910 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-21:32:36.910 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
-21:32:37.040 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-21:32:37.041 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1182 ms
-21:32:37.336 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
-21:32:37.354 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
-21:32:37.362 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 2.057 seconds (process running for 2.959)
-21:33:05.962 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-21:33:05.962 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-21:33:05.963 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-21:33:06.005 [http-nio-8090-exec-1] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo C y número de documento
-00:37:40.301 [main] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo  y número de documento
-00:37:40.431 [main] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo  y número de documento
-00:37:40.453 [main] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo  y número de documento
+16:15:03.002 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:15:03.003 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:15:03.004 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:17:16.818 [http-nio-8090-exec-9] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type C and document number 23445322
+16:17:16.821 [http-nio-8090-exec-9] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type C
+16:17:39.975 [http-nio-8090-exec-1] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type C and document number 23445322
+16:17:39.975 [http-nio-8090-exec-1] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type C
+16:17:46.712 [http-nio-8090-exec-2] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type P and document number 23445322
+16:17:46.713 [http-nio-8090-exec-2] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type P
+16:17:53.969 [http-nio-8090-exec-3] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type X and document number 23445322
+16:17:53.970 [http-nio-8090-exec-3] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type X
+16:17:53.970 [http-nio-8090-exec-3] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid X
+16:18:01.424 [http-nio-8090-exec-5] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type X and document number 5
+16:18:01.424 [http-nio-8090-exec-5] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type X
+16:18:01.424 [http-nio-8090-exec-5] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid X
+16:18:06.953 [http-nio-8090-exec-6] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type 8 and document number 5
+16:18:06.953 [http-nio-8090-exec-6] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type 8
+16:18:06.953 [http-nio-8090-exec-6] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid 8
+16:18:29.919 [http-nio-8090-exec-1] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type null and document number null
+16:18:29.919 [http-nio-8090-exec-1] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type null
+16:18:29.919 [http-nio-8090-exec-1] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid null
+16:27:36.012 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 17272 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
+16:27:36.016 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+16:27:37.976 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+16:27:37.991 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+16:27:37.995 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:27:37.995 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+16:27:38.157 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:27:38.158 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2053 ms
+16:27:38.739 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+16:27:38.774 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+16:27:38.787 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 3.569 seconds (process running for 5.895)
+16:29:07.284 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:29:07.285 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:29:07.287 [http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:29:07.402 [http-nio-8090-exec-2] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type P and document number 23445322
+16:29:07.404 [http-nio-8090-exec-2] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type P
+16:29:07.405 [http-nio-8090-exec-2] ERROR c.n.p.s.impl.ClientServiceImpl - The client does not exist 23445322
+16:29:14.400 [http-nio-8090-exec-3] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type C and document number 23445322
+16:29:14.401 [http-nio-8090-exec-3] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type C
+16:29:21.998 [http-nio-8090-exec-4] INFO  c.n.p.s.impl.ClientServiceImpl - Get client with type X and document number 23445322
+16:29:21.999 [http-nio-8090-exec-4] INFO  c.n.p.s.impl.ClientServiceImpl - validate document type X
+16:29:21.999 [http-nio-8090-exec-4] ERROR c.n.p.s.impl.ClientServiceImpl - The document type is not valid X
