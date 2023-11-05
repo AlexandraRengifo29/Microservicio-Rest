@@ -66,3 +66,6 @@ Identify and stop the process that's listening on port 8090 or configure this ap
 21:33:05.962 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 21:33:05.963 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 21:33:06.005 [http-nio-8090-exec-1] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo C y número de documento
+00:37:40.301 [main] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo  y número de documento
+00:37:40.431 [main] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo  y número de documento
+00:37:40.453 [main] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo  y número de documento

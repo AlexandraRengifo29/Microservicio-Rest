@@ -24,25 +24,25 @@ public class ClienteController {
             @PathVariable String tipo,
             @PathVariable String numeroDocumento) {
 
-        logger.info("Consultando cliente con tipo {} y número de documento", tipo, numeroDocumento);
+        logger.info("Consultando cliente con tipo  y número de documento", tipo, numeroDocumento);
 
         try {
-            // Validación inicial de los parámetros (puedes agregar más validaciones según sea necesario)
+            // Validación inicial de los parámetros
 
             if ("C".equals(tipo) || "P".equals(tipo)) {
                 ClienteInfo cliente = clienteService.obtenerClienteInfo(tipo, numeroDocumento);
 
-                // Devolver una respuesta con código 200 (OK) y la información del cliente
+                // Devuelvee una respuesta con código 200 (OK) y la información del cliente
                 return ResponseEntity.status(HttpStatus.OK).body(cliente);
             } else {
-                // Devolver una respuesta con código 400 (Bad Request) si los parámetros no son válidos
+                // Devueeelve una respuesta con código 400 (Bad Request) si los parámetros no son válidos
                 return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
             }
         } catch (ClienteNotFoundException e) {
-            // Capturar excepción y devolver una respuesta con código 404 (Not Found) si el cliente no se encuentra
+            // captura excepción y devuelve una respuesta con código 404 (Not Found) si el cliente no se encuentra
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         } catch (Exception e) {
-            // Capturar excepción no controlada y devolver una respuesta con código 500 (Internal Server Error)
+            // captura excepción no controlada y devuelve una respuesta con código 500 (Internal Server Error)
             logger.error("Error inesperado al consultar cliente: {}", e.getMessage(), e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
