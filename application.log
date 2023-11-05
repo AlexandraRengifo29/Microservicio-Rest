@@ -1,0 +1,68 @@
+21:31:30.048 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 5428 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
+21:31:30.053 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+21:31:31.720 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+21:31:31.736 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+21:31:31.738 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:31:31.739 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+21:31:31.859 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:31:31.859 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1692 ms
+21:31:32.461 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+21:31:32.495 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+21:31:32.508 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 3.317 seconds (process running for 4.996)
+21:31:34.443 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 27508 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
+21:31:34.446 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+21:31:35.558 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+21:31:35.567 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+21:31:35.570 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:31:35.570 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+21:31:35.675 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:31:35.675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1158 ms
+21:31:35.955 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+21:31:35.959 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+21:31:35.962 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+21:31:35.962 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+21:31:35.967 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+21:31:35.967 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+21:31:35.973 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+21:31:35.989 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+21:32:02.292 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 29000 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
+21:32:02.295 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+21:32:03.403 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+21:32:03.413 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+21:32:03.416 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:32:03.416 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+21:32:03.528 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:32:03.528 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1170 ms
+21:32:03.815 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+21:32:03.833 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+21:32:03.841 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 2.032 seconds (process running for 2.935)
+21:32:35.787 [main] INFO  c.n.prueba.NttdataPruebaApplication - Starting NttdataPruebaApplication using Java 17.0.9 with PID 20528 (C:\Users\DELL\Desktop\nttdata-prueba\target\classes started by DELL in C:\Users\DELL\Desktop\nttdata-prueba)
+21:32:35.790 [main] INFO  c.n.prueba.NttdataPruebaApplication - The following 1 profile is active: "local"
+21:32:36.896 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+21:32:36.908 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+21:32:36.910 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:32:36.910 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+21:32:37.040 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:32:37.041 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1182 ms
+21:32:37.336 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+21:32:37.354 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+21:32:37.362 [main] INFO  c.n.prueba.NttdataPruebaApplication - Started NttdataPruebaApplication in 2.057 seconds (process running for 2.959)
+21:33:05.962 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:33:05.962 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:33:05.963 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+21:33:06.005 [http-nio-8090-exec-1] INFO  c.n.p.controller.ClienteController - Consultando cliente con tipo C y número de documento
