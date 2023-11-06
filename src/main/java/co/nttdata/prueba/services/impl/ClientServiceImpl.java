@@ -22,6 +22,11 @@ public class ClientServiceImpl implements ClientService {
     ClientMapper mapper = ClientMapper.INSTANCE;
     private final Logger logger = LoggerFactory.getLogger(ClientServiceImpl.class);
 
+    @Autowired
+    public ClientServiceImpl(ClientRepository clientRepository) {
+        this.clientRepository = clientRepository;
+    }
+
     /**
      *
      * @param documentType
